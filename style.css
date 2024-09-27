@@ -1,0 +1,361 @@
+  body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f9fa;
+    }
+    .header{
+        background-color: rgb(134, 52, 134);
+        color: white;
+    }
+   
+    .hero{
+        background-color: #711360;
+        color: #fff;
+        padding: 60px 0;
+    }
+    .hero-title{
+        font-size: 1.0rem;
+        margin-bottom: 20px;
+    }
+    .hero-subtitle{
+        font-size: 3.2rem;
+        margin-bottom: 30px;
+    }
+    .btn-primary{
+        padding: 10px 30px;
+        background-color: rgb(241, 181, 106);
+        border: none;
+        padding: 17px;
+        border-radius: 15px 0px 15px 0px;
+       }
+       .btn:hover{
+        transition: 2s;
+        background-color: purple;
+       }
+    .img{
+        max-width: 100%;
+        height:auto;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        position: relative;
+        animation: mymove 5s infinite;
+       
+    }
+    .hero{
+        background-image:linear-gradient(rgba(97, 17, 64, 0.815),rgba(97, 17, 64, 0.815)),url(sea1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+       background-color: #711360;
+    }
+   
+    .button{
+        position: relative;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 500;
+        padding: 24px 50px;
+        text-align: center;
+        color: white;
+        display: inline-block;
+        background-color: white;
+        border-radius: 35px 0px 35px 0px;
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+        box-sizing: border-box;
+        border: white;
+    }
+    .button{
+        padding: 14px 30px;
+        color: white;
+    }
+    .nav-link{
+        color: white;
+        padding: 0px;
+    }
+    p{
+        font-size: 1.0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 40px;
+    }
+   
+   
+    <!----our services---->
+   
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f9fa;
+        background-color: white;
+    }
+    header{
+        background-color: #ffffff;
+        padding: 50px 0;
+    }
+    header h1{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    header p{
+        font-size: 1.2em;
+        color: #666;
+    }
+    .card{
+        margin-top: 20px;
+        border-radius: 60px 0px 60px 0px;
+        background-color: whitesmoke;
+    }
+    .card-title{
+        font-size: 1.5em;
+        color: black;
+        margin-bottom: 15px;
+    }
+    .card-text{
+        font-size: 1.0em;
+        color:black;
+    }
+    .vicky{
+        padding: 10px 30px;
+        background-color: rgb(241, 181, 106);
+        border: none;
+        padding: 17px;
+        border-radius: 15px 0px 15px 0px;
+        color: white;
+       }
+       .vicky:hover{
+        transition: 2s;
+        background-color: purple;
+       }
+    .card{
+       color: var(--e-global-color-accent);
+       background-color: var(--e-global-color-soft-orange);
+       font-size: 14px;
+       line-height: 26px;
+       padding: 12px 15px;
+       border-radius: 60px 0px 60px 0px;
+       transition: all ease-in-out 0.3s;
+    }
+    .img-fluid{
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+        border-style: none;
+        overflow: clip;
+        padding:0px 0px 15px 0px;
+        border-radius: 60px 0px 60px 0px;
+        display: block;
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+    @keyframes mymove {
+        from {left: 0px;}
+        to {left: 200px;}
+      }
+    ::after ::before{
+        box-sizing: border-box;
+   
+    }
+   
+    <!---------about us---------->
+   
+    .about-us{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f9f9f9;
+       }
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: whitesmoke;
+    }
+     h4{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: white;
+    }
+   
+       .about-us img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+       }
+       .content{
+        max-width: 600px;
+        text-align: left;
+        padding: 120px;
+       }
+       .content h2{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       .content p{
+        font-size: 0.7rem;
+        color:black;
+        margin-bottom: 20px;
+       }
+       .content .btn{
+        padding: 10px 30px;
+        background-color: rgb(241, 181, 106);
+        border: none;
+        padding: 17px;
+        border-radius: 15px 0px 15px 0px;
+       }
+       .btn:hover{
+        transition: 2s;
+        background-color: purple;
+       }
+       
+    ---------------------
+   
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+   
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 40px;
+        color: #555;
+    }
+    .featured-box{
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .featured-box h5{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .featured-box p{
+        font-size: 14px;
+        color: #777;
+    }
+    .img-fluid{
+        max-width: 100%;
+        height: auto;
+    }
+   
+   
+   
+    <!-------------getintouch-------------->
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .bg-purple{
+        background-color: #6f42c1;
+    }
+    .btn-purple{
+        padding: 10px 30px;
+        background-color: purple;
+        border: none;
+        padding: 17px;
+        border-radius: 15px 0px 15px 0px;
+        color: white;
+    }
+    .btn-purple:hover{
+        transition: 2s;
+        background-color:palegoldenrod;
+       }
+       
+    .consultation{
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+        text-align: center;
+        color: black;
+        background:rgb(209, 182, 149);
+        display:flex;
+        position: relative;
+        border-radius: 10px 0px 10px 0px;
+    }
+   
+   
+    .consultation h2{
+        margin-bottom: 3rem;
+        text-align: center;
+        font-family:bold;
+        font-size: 3.0em;
+        line-height: 90px;
+   
+    }
+    .form-control{
+        margin-bottom: 2.5rem;
+        padding: 0px;
+        line-height: 60px;
+    }
+   
+    .text-white{
+        color: white;
+    }
+   
+    <!----------pricing-------->
+   
+    .pricing{
+        background-color: #f8f9fa;
+    }
+    .pricing h2{
+        margin-bottom: 1rem;
+        font-family:bold;
+        font-size: 3.0em;
+    }
+    .pricing p{
+        margin-bottom: 2rem;
+    }
+    .card{
+        border: none;
+    }
+    .card-body{
+        padding: 2rem;
+        background-color: white;
+    }
+    .card-title{
+        margin-bottom: 1rem;
+    }
+    .list-unstyled{
+        padding-left: 0;
+        list-style: none;
+        margin-bottom: 1rem;
+    }
+    .img{
+        vertical-align: center;
+        border-style: none;
+    }
+   
+  --------------------------------------------------------------  
+   
+   
+    .footer{
+        background-color: #8954a8;
+    }
+    .footer h5{
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .footer p{
+        color: #ccc;
+    }
+    .footer ul{
+        padding-left: 0;
+        list-style: none;
+    }
+    .footer ul li{
+        margin-bottom: 10px;
+        color: #ccc;
+    }
+    .footer ul li a{
+    margin-bottom: 1opx;
+    text-decoration: none;
+    }
+    .footer ul li a:hover{
+        text-decoration: underline;
+    }
+    .footer .fa{
+        margin-right: 10px;
+    }
+ 

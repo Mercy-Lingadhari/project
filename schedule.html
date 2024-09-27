@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    .container {
+      margin-top: 50px;
+
+
+    }
+
+    .days {
+      color: rgb(219, 58, 240);
+
+    }
+
+    .vasu {
+      font-style: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.0rem;
+      background-color: whitesmoke;
+    }
+
+    .section-title {
+      font-size: 2.0rem;
+    }
+
+    .form-title,
+    .schedule-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .schedule {
+      margin-top: 30px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      line-height: 40px;
+      font-weight: 600;
+      letter-spacing: 0.25px;
+      color: #7b6cd5;
+      margin-bottom: 5px;
+
+    }
+
+    .h2 {
+      color: plum;
+    }
+
+    .section-title {
+      font-family: 'Roboto Slab', serif;
+      font-size: 20px;
+      line-height: 40px;
+      letter-spacing: 0.8px;
+      font-weight: 700;
+      color: #7b6cd5;
+      text-align: center;
+      //margin-bottom: 70px;
+    }
+
+    .appointment-title {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 300;
+      letter-spacing: 0.6px;
+      text-align: center;
+      color: #7b6cd5;
+      text-align: center;
+    }
+
+    .appointment-desc {
+      font-family: inherit;
+      font-size: 12px;
+      line-height: 10px;
+      letter-spacing: 0.50px;
+      color: #888;
+      text-align: center;
+    }
+
+    .appointment {
+      border: 1px solid #666;
+      border-radius: 3px;
+      padding: 30px 28px 25px;
+      text-align: center;
+    }
+
+    .yoga {
+      font-size: 1.2rem;
+    }
+
+    .hero {
+      background-color: plum;
+      color: #fff;
+      padding: 60px 0;
+    }
+
+    .hero-subtitle {
+      font-size: 3.2rem;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    .button {
+      background-color: purple;
+      padding: 30px;
+    }
+
+    .footer {
+      background-color: rgb(73, 15, 73);
+    }
+
+    .footer h5 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .footer p {
+      color: #ccc;
+    }
+
+    .footer ul {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .footer ul li {
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+
+    .footer ul li a {
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+
+    .footer ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer .fa {
+      margin-right: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header class="header text-white text-center">
+    <nav class="navbar navbar-expand-lg navbar-#711360">
+      <div class="container-fluid">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="navbar-brand" href="index.html"><img
+            src="https://designingmedia.com/yogastic/wp-content/uploads/2023/09/logo-4.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">schedule</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="Classes.html">Classes</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!------------------------------------------------------------------------------------------------------>
+
+
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="hero-subtitle text-center p-4">schedule</h1>
+          <button type="button" class="btn btn-primary">Get Started</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+
+
+  <!-----------------------------------------------------timeschedule--------------------------------------------------------->
+
+  <br>
+  <br>
+
+
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-4">
+      <div class="card" >
+        <img src="nyc/pose1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="yoga">Pilates Yoga</h2>
+          <p class="card-text"><i class="far fa-calendar-alt"></i>
+            Sun, Tue, Thu</p>
+          <p><i class="far fa-clock"></i>9:00 - 10:00</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+      <div class="card">
+        <img src="nyc/pose2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="yoga">Iyengar Yoga</h2>
+          <p class="card-text"><i class="far fa-calendar-alt"></i>
+            Thus, Fri, Sat</p>
+          <p><i class="far fa-clock"></i>9:00 - 10:00</p>
+
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-4">
+      <div class="card">
+        <img src="nyc/pose3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="yoga">Ashtanga yoga</h2>
+          <p class="card-text"><i class="far fa-calendar-alt"></i>
+            Mon, Tue,Thu</p>
+          <p><i class="far fa-clock"></i>9:00 - 10:00</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+ 
+    <div class="row">
+      <div class="col-md-4">
+      <div class="card">
+        <img src="nyc/pose4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="yoga">Hatha Yoga</h2>
+          <p class="card-text"><i class="far fa-calendar-alt"></i>
+            Sun, Tue, Thu</p>
+          <p><i class="far fa-clock"></i>9:00 - 10:00</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+      <div class="card" >
+        <img src="nyc/pose5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="yoga">Kundalini Yoga</h2>
+          <p class="card-text"><i class="far fa-calendar-alt"></i>
+            Thus, Fri, Sat</p>
+          <p><i class="far fa-clock"></i>9:00 - 10:00</p>
+
+        </div>
+      </div>
+      </div>
+       
+      <div class="col-md-4">
+      <div class="card">
+        <img src="nyc/pose6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="yoga">Vinyasa yoga</h2>
+          <p class="card-text"><i class="far fa-calendar-alt"></i>
+            Sun, Tue, Thu</p>
+          <p><i class="far fa-clock"></i>9:00 - 10:00</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+    </button>
+  </div>
+
+
+  </div>
+  </div>
+
+  <!---------------------------------------------------------------------------------------------------------->
+
+
+  <br><br><br>
+
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title text-center">FORM & TIME SCHEDULE </h3>
+        <p class="appointment-desc text-center"> Anyone who practices yoga with involvement can reap its benefits,
+          irrespective of one’s faith, ethnicity or culture.Traditional Schools of Yoga </p>
+        <div class="form2">
+          <div class="row text-center">
+            <div class="col-md-12">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+<!------------------------------------------------------------------------------------------------------>
+
+
+      <div class="container-fluid align-center">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 bg-light border border-primary">
+            <h4 class="section-title text-center">Make An Appointment</h4>
+            <p class="appointment-desc text-center"> "Yoga is about harmonizing oneself with the universe. It is the
+              technology of aligning individual geometry with the cosmic, to achieve the highest level of perception and
+              harmony.”
+
+            </p>
+            <form>
+
+              <div>
+                <input type="text" class="form-control" placeholder="First Name">
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Last Name">
+              </div>
+              <div>
+                <input type="date" class="form-control">
+              </div>
+              <div>
+                <select class="form-control">
+                  <option>Choose Class</option>
+                  <option>Kundalini Meditation Beginners for Yoga</option>
+                  <option>Surya Namaskar & Advanced Meditation for Yoga</option>
+                  <option>Weekly practice with Children Yoga</option>
+                  <option>Advanced Meditation & Healthy Recipes</option>
+                </select>
+              </div>
+
+              <div>
+                <input type="tel" class="form-control" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Message(optional)"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" class="vasu">Book An Appointment</button>
+            </form>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 bg-light text-center">
+            <h3 class="section-title text-center">Weekdays</h3>
+            <p class="vasu">06:00 AM - 07.00 AM:</p>
+            <p class="vasu">Kundalini Meditation Beginners for Yoga</p>
+            <p class="vasu">07.00 AM- 08.30 AM:</p>
+            <p class="vasu">Surya Namaskar & Advanced Meditation</p>
+
+            <h3 class="section-title text-center">Weekends</h3>
+            <p class="vasu">05:00 AM - 07:00 AM:</p>
+            <p class="vasu">Weekly Practice With Children Yoga</p>
+            <p class="vasu">08.00 AM - 10.00 AM:</p>
+            <p class="vasu">Advanced Meditation & Healthy Recipes</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--------footer------->
+
+  <br>
+  <br>
+
+  <footer class="footer mt-auto py-4 bg-purple text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="https://designingmedia.com/yogastic/wp-content/uploads/2023/09/logo-4.png" alt="logo">
+          <br>
+        </div>
+
+        <div class="col-md-3">
+          <h5>About us</h5>
+          <p>The practice of Yoga is believed to have started with the very dawn of civilization.</p>
+          <a href="#" class="text-white mr-2 p-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white mr-2 p-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white mr-2 p-3"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="aboutus.html" class="text-white">AboutUs</a></li>
+            <li><a href="classes.html" class="text-white">classes</a></li>
+            <li><a href="schedule.html" class="text-white">schedule</a></li>
+            <li><a href="gallery.html" class="text-white">gallery</a></li>
+            <li><a href="contact.html" class="text-white">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Info</h5>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-phone"></i>+91 6302721879 </li>
+            <li><i class="fa fa-envelope"></i>info@yogastic.com </li>
+            <li><i class="fa fa-map-marker"></i>21 madhapur,hyderabad,india 500045. </li>
+
+          </ul>
+          <div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    </div>
+    <hr>
+    <div class="text-center mt-3 font-size='1.0'">copy;yogastic 2024. All Rights reserved</div>
+
+  </footer>
+
+</body>
+
+</html>
